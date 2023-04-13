@@ -6,7 +6,7 @@
 			<nav class="menu">
 				<div class="menu__group">
 					<!-- <h2 class="menu__title text-white">{{ $t('menu.profile-billing') }}</h2> -->
-					<router-link class="menu__link flex items-center justify-between profile" to="/profile-billing"><span>{{ $t('Profile Billing') }}</span> <img class="profile-details__photo h-10 w-10" src="/img/avatar.png" alt="avatar" /></router-link>
+					<router-link class="menu__link flex items-center justify-between profile" to="/profile"><span>{{ $t('Profile & Billing') }}</span> <img class="profile-details__photo h-10 w-10" src="/img/avatar.png" alt="avatar" /></router-link>
 					<!-- <router-link class="menu__link" to="/find-fixtures">{{
 						$t('menu.find_fixtures')
 					}}</router-link> -->

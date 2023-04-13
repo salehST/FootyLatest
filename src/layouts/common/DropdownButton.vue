@@ -1,7 +1,8 @@
 <template>
 	<div :class="`dropdown ${isOpen ? 'is-open' : ''}`">
 		<div class="dropdown__backdrop" role="presentation" v-if="isOpen" v-on:click="close"></div>
-		<button class="dropdown__button" v-on:click="clickHandler">{{ buttonText }}</button>
+		<button class="dropdown__button" v-on:click="clickHandler">
+					<img src="/img/icons/shield-half-full.svg" class="btn-icon h-5 w-5" alt=""> {{ buttonText }}</button>
 		<transition name="popover">
 			<div class="popover" v-show="isOpen" ref="popover">
 				<div class="popover__inner" ref="popoverInner">

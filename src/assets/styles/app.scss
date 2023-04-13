@@ -211,24 +211,14 @@ input[type=email]:focus, input[type=password]:focus, input[type=search]:focus, i
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
-.sidebar .team-select .dropdown .dropdown__button{
+.sidebar .team-select .dropdown .dropdown__button {
     position: relative;
-    padding-left: 60px;
+    padding-left: 25px;
+    display: flex;
+    gap: 10px;
 }
-.sidebar .team-select .dropdown .dropdown__button:after{
-    content: "";
-    width: 18px;
-    height: 18px;
-    position: absolute;
-    left: 28px;
-    top: 0;
-    background: url('/img/icons/icon-shield.svg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    border-radius: 50%;
-    overflow: hidden;
+.sidebar .league-select.dropdown .dropdown__button img{
+    display: none;
 }
 .sidebar .dropdown__button{
     position: relative;

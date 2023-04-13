@@ -16,7 +16,7 @@
 
 					<div class="flex gap-4 item-center justify-end">
 							<button @click="editTrue(1)" type="submit" class="button button--primary button--small">Save</button>
-							<button @click="editTrue(1)" type="submit" class="button button--cancel button--small mr-4">Cancel</button>
+							<button @click="editTrue(1)" type="submit" class="button button--cancel button--small">Cancel</button>
 						</div>
 				</div>
 			</div>

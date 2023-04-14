@@ -129,7 +129,6 @@
     background-position: 90% 50%;
     border: none;
     background-image: none;
-    width: 300px;
 }
 input[type=email]:focus, input[type=password]:focus, input[type=search]:focus, input[type=text]:focus, select:focus{
     border-color: transparent;
@@ -238,6 +237,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=search]:focus, i
     background-attachment: scroll;
     background-position: center right;
 }
+
 .sidebar .league-select.dropdown .dropdown__button:before{
     top: 5px;
 }
@@ -251,6 +251,8 @@ input[type=email]:focus, input[type=password]:focus, input[type=search]:focus, i
 .sidebar .team-select .popover {
     z-index: 9999;
     height: 550px;
+    padding-top: 10px;
+top: 2rem;
 }
 .sidebar .league-select .popover__inner span.text-lg.text-gray-700.text-center.p-6{
     color: #fff;

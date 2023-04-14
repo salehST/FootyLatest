@@ -15,8 +15,8 @@
 					<input type="text" name="city" class=" text-grey-dark text-14 font-500 py-2 px-3 border border-gray-500 hover:outline-none focus:outline-none hover:border-gray-600 transition focus:ring-0 focus:border-gray-500 mb-1"  id="city" placeholder="Amsterdam" >
 
 					<div class="flex gap-4 item-center justify-end">
-							<button @click="editTrue(1)" type="submit" class="button button--primary button--small">Save</button>
 							<button @click="editTrue(1)" type="submit" class="button button--cancel button--small">Cancel</button>
+							<button @click="editTrue(1)" type="submit" class="button button--primary button--small">Save</button>
 						</div>
 				</div>
 			</div>

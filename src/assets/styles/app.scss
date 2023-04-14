@@ -98,7 +98,7 @@
     padding: 0;
     border-radius: 0;
     background: #274368;
-    top: 44px;
+    top: 53px;
 }
 .sidebar .popover__inner .popover__close, .sidebar .popover__inner h1.label-h,.sidebar .popover::before, .sidebar label.search-box__label {
     display: none;
@@ -253,7 +253,6 @@ input[type=email]:focus, input[type=password]:focus, input[type=search]:focus, i
     z-index: 9999;
     height: 550px;
     padding-top: 10px;
-top: 2rem;
 }
 .sidebar .league-select .popover__inner span.text-lg.text-gray-700.text-center.p-6{
     color: #fff;
